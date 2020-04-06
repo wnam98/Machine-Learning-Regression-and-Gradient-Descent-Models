@@ -21,6 +21,8 @@ Left Inverse
 <img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182702985" /> 
 
 Right Inverse
+<br/>
+<img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182932826" />
 
 ### Gradient Descent
 
