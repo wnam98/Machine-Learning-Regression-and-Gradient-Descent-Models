@@ -12,6 +12,7 @@ First order regression consists of the sum of the bias term and the dot product 
 ### Second Order Polynomial Regression
 
 Second order regression consists of six basis equations along with the bias term. From the given training data, this model yields a 6 x 4 input correlation matrix.
+<img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182059773" /> 
 
 ### Pseudo Inverse Method
 Left Inverse
