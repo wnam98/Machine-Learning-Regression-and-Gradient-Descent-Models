@@ -29,22 +29,10 @@ For MacOS/Linux users, cd into the directory containing the script and enter the
 ```
 python3 data.py
 ```
-Windows users can enter the same command 
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-### And coding style tests
-
-Explain what these tests test and why
-
+or for Windows:
 ```
-Give an example
+python data.py
 ```
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Tools/Frameworks
 
