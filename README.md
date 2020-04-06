@@ -13,7 +13,8 @@ First order regression consists of the sum of the bias term and the dot product 
 Second order regression consists of six basis equations along with the bias term. From the given training data, this model yields a 6 x 4 input correlation matrix.
 
 ### Pseudo Inverse Method
-Left Inverse 
+Left Inverse
+<img src="https://render.githubusercontent.com/render/math?math=e^{i \pi} = -1">
 Right Inverse
 
 ### Gradient Descent
