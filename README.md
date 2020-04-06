@@ -17,6 +17,8 @@ Second order regression consists of six basis equations along with the bias term
 
 ### Pseudo Inverse Method
 Left Inverse
+<br/>
+<img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182702985" /> 
 
 Right Inverse
 
