@@ -7,7 +7,7 @@ Given an initial set of training data: {[1,0], 1}, {[2,1], 0}, {[3,2], 2} and {[
 ### Simple First Order Linear Regression
 
 First order regression consists of the sum of the bias term and the dot product of the weight and training feature vectors.
-<img src="https://render.githubusercontent.com/render/math?math=y = \ \beta _{0} +  \beta _{1} \omega _{1} +  \beta _{2} \omega _{2}">
+<img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586181594021" /> 
 
 ### Second Order Polynomial Regression
 
