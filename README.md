@@ -59,16 +59,21 @@ The columns of our phi matrix are dependent and is thus uninvertible. The pseudo
 
 ### Mean Squared Error
 
-The error for our training data is calculated as the difference between the desired and computed output. For a batch of data as in our phi matrix, we can introduce mean squared error by taking the expectation of the square of the training data error:
+The error for our training data is calculated as the difference between the desired and computed output. For a large batch of data as in our phi matrix, we can introduce mean squared error by taking the expectation of the square of the training data error:
 <br/>
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586331221704" />
+<br/>
+<br/>
+Because of the multivariate nature of the training data, the graph of the MSE equation represents a bowl shaped function in x1 and x2 cross space. The optimal weight vector is represented by the global minimum of this error function.
+![mse_graph](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/mse_graph.png "mse_graph")
 
-### Input Correlation
 
-### Cross Correlation
+### Batch Gradient Descent
 
-### Weight Update
+
+
+### Stochastic Gradient Descent
 
 ## Running the script in your terminal
 
