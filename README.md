@@ -1,4 +1,4 @@
-# Implementing Stochastic and Batch Gradient Descent for a GLM Second Order Polynomial Regression Model 
+# GLM Second Order Polynomial Regression with Pseudo Inverse and Gradient Descent Weight Vectors
 
 ## Introduction 
 
