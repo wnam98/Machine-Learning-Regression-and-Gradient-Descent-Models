@@ -66,7 +66,7 @@ The error for our training data is calculated as the difference between the desi
 <br/>
 <br/>
 Because of the multivariate nature of the training data, the graph of the MSE equation represents a bowl shaped function in x1 and x2 cross space. The optimal weight vector is represented by the global minimum of this error function.
-![mse_graph](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/mse_graph.png "mse_graph")
+![mse_graph](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/mse_graph.PNG "mse_graph")
 
 
 ### Batch Gradient Descent
