@@ -18,27 +18,19 @@ Second order regression consists of six basis equations along with the bias term
 ### Pseudo Inverse Method
 In order to find the optimal weight vector, we need to derive the minimum of the error function. The above model is an example of multivariate least squares estimation where the objective function can be expressed as:
 <br/>
-<br/>
 <img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586322502020">
-<br/>
 <br/>
 The partial derivative of the objective function with respect to the weight vector is expressed below:
 <br/>
-<br/>
 <img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586324285280">
-<br/>
 <br/>
 which yields the following:
 <br/>
-<br/>
 <img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586324858319">
-<br/>
 <br/>
 After setting the expression equal to 0, we have derived the pseudo inverse weight vector
 <br/>
-<br/>
 <img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316748184" /> 
-<br/>
 <br/>
 The columns of our phi matrix are dependent, and thus the determinant is zero and require a switch to the alternate right inverse.
 <br/>
