@@ -63,8 +63,6 @@ The error for our training data is calculated as the difference between the desi
 <br/>
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586331221704" />
-<br/>
-<br/>
 
 ### Input Correlation
 
