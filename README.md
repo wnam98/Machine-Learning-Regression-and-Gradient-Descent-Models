@@ -95,7 +95,8 @@ Stochastic gradient descent estimates the gradient using a randomly selected sub
 <img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586340988003" />
 <br/>
 <br/>
-Stochastic gradient descent significantly reduces the computational complexity during weight training, but generally takes larger number of iterations to reach convergence of an optimal minimum. For deep learning neural networks, stochastic is generally the default optimization method.
+Where d and s respectively denote desired vs computed outputs. Stochastic gradient descent significantly reduces the computational complexity during weight training, but generally takes a larger number of iterations to reach convergence of an optimal minimum. For deep learning neural networks, stochastic is generally the default optimization method. The picture below shows the difference in convergence paths for SGD vs BGD
+![sgdvsbgd](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/sgdvsbgd.PNG "sgdvsbgd")
 
 ## Running the script in your terminal
 
