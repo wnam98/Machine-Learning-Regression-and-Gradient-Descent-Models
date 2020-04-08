@@ -54,6 +54,8 @@ The columns of our phi matrix are dependent and is thus uninvertible. The pseudo
 <br/>
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182932826" />
+<br/>
+<br/>
 
 ## Gradient Descent
 
