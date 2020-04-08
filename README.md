@@ -16,11 +16,16 @@ Second order regression consists of six basis equations along with the bias term
 <img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316079966" /> 
 
 ### Pseudo Inverse Method
-Left Inverse
+In order to find the optimal weight vector, we need to derive the minimum of the error function. The above model is an example of multivariate least squares estimation where the objective function can be expressed as:
+<br/>
+<img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586322502020">
+
+
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316748184" /> 
 
 Right Inverse
+The columns of our phi matrix are dependent, and thus the determinant is zero and  
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182932826" />
 
