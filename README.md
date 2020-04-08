@@ -59,6 +59,13 @@ The columns of our phi matrix are dependent and is thus uninvertible. The pseudo
 
 ### Mean Squared Error
 
+The error for our training data is calculated as the difference between the desired and computed output. For a batch of data as in our phi matrix, we can introduce mean squared error by taking the expectation of the square of the training data error:
+<br/>
+<br/>
+<img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586331221704" />
+<br/>
+<br/>
+
 ### Input Correlation
 
 ### Cross Correlation
