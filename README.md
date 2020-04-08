@@ -43,7 +43,7 @@ After setting the expression equal to 0, we have derived the pseudo inverse weig
 <img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316748184" /> 
 <br/>
 <br/>
-The columns of our phi matrix are dependent and is thus uninvertible. The pesudo inverse weight vector for the training data was calculated using the alternate right inverse.
+The columns of our phi matrix are dependent and is thus uninvertible. The pesudo inverse weight vector for the training data was calculated using the alternate right inverse for row independence.
 <br/>
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182932826" />
