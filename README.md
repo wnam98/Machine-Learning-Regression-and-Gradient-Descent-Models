@@ -21,11 +21,16 @@ In order to find the optimal weight vector, we need to derive the minimum of the
 <br/>
 <img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586322502020">
 <br/>
+<br/>
 The partial derivative of the objective function with respect to the weight vector is expressed below:
+<br/>
 <br/>
 <img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586324285280">
 <br/>
+<br/>
 <img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316748184" /> 
+<br/>
+<br/>
 
 Right Inverse
 The columns of our phi matrix are dependent, and thus the determinant is zero and  
