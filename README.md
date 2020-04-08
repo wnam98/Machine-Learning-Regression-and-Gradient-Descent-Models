@@ -75,11 +75,11 @@ The gradient descent algorithm finds the optimal minimum by traversing through t
 <img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586336420923" />
 <br/>
 <br/>
-where p = number of iterations and i = vector dimensions
+where p = number of iterations and i = vector dimensions.
 
 ### Batch Gradient Descent
 
-Batch gradient descent calculates the exact input and cross correlations at each iteration using the entire batch of given training data. The following is derived from differentiating the MSE objective function. Note that P and R remain fixed.
+Batch gradient descent calculates the exact input and cross correlations at each iteration using the entire batch of given training data. The following is derived from differentiating the MSE objective function. Note that P and R remain fixed at each iteration.
 <br/>
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586337561983" />
@@ -89,7 +89,13 @@ Where P denotes the cross correlation matrix and R denotes the input correlation
 
 ### Stochastic Gradient Descent
 
-
+Stochastic gradient descent estimates the gradient using a randomly selected subset of the data at each iteration. Thus, R and P are also estimated at each iteration until the long term average of the locally optimized weight vector approaches the true optimal solution. The weight update equation is expressed below:
+<br/>
+<br/>
+<img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586340988003" />
+<br/>
+<br/>
+Stochastic gradient descent significantly reduces the computational complexity during weight training, but generally takes larger number of iterations to reach convergence of an optimal minimum. For deep learning neural networks, stochastic is generally the default optimization method.
 
 ## Running the script in your terminal
 
