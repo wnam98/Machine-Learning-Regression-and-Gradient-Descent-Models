@@ -11,7 +11,7 @@ First order regression consists of the sum of the bias term and the dot product 
 
 ### Second Order Polynomial Regression
 
-Second order regression consists of six basis equations along with the bias term. From the given training data, this model yields a 6 x 4 input correlation matrix.
+Second order regression consists of six basis equations along with the bias term. For multivariate least square estimation, the input phi matrix yields k + 1 basis vectors as the number of columns, and n training instances as the number of columns. From the given training data, our phi dimensions should be 6 x 4.
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316079966" /> 
 
