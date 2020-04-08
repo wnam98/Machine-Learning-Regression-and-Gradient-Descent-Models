@@ -18,6 +18,13 @@ Second order regression consists of six basis equations along with the bias term
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316079966" /> 
 
+### Regression with Neural Networks
+
+Regression from the point of view of a Neural Network with two hidden layers. Each perceptron takes in a weighted sum depending on the strengths of the connections between the layers. 
+<br/>
+<br/>
+<img src="https://i.stack.imgur.com/qtSik.png" />
+
 ## Pseudo Inverse Method
 In order to find the optimal weight vector, we need to derive the minimum of the error function. The above model is an example of multivariate least squares estimation where the objective function can be expressed as:
 <br/>
