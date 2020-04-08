@@ -65,14 +65,18 @@ The error for our training data is calculated as the difference between the desi
 <br/>
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586331221704" />
-<br/>
-<br/>
 Because of the multivariate nature of the training data, the graph of the MSE equation represents a bowl shaped function in x1 and x2 cross space. The optimal weight vector is represented by the global minimum of this error function.
 ![mse_graph](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/mse_graph.PNG "mse_graph")
 The gradient descent algorithm finds the optimal minimum by traversing through the error function a set number of times (denoted by pmax iterations). At each iteration, an initialized weight vector is updated by the sum of its previous iteration value and a specified learning rate multiplied by the gradient of the MSE function. The gradient is defined as the first-order derivative of the error function with respect to the weight vector. 
 
 ### Batch Gradient Descent
+
 <img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586336420923" />
+<img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586337561983" />
+<br/>
+<br/>
+Batch gradient descent is computationally complex for large datasets because gradient information is completely specified in advance (which relies on making calulations using the entire batch at each iteration). However, since BGD calculates true gradient at each iteration, convergence is generally reached in a fewer number of iterations. 
+
 ### Stochastic Gradient Descent
 
 ## Running the script in your terminal
