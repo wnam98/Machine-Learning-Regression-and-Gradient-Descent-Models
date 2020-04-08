@@ -31,6 +31,9 @@ The partial derivative of the objective function with respect to the weight vect
 which yields the following:
 <br/>
 <br/>
+<img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586324858319">
+<br/>
+<br/>
 After setting the expression equal to 0, we have derived the pseudo inverse weight vector
 <br/>
 <br/>
