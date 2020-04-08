@@ -57,11 +57,11 @@ The columns of our phi matrix are dependent and is thus uninvertible. The pseudo
 
 ## Gradient Descent
 
+### Mean Squared Error
+
 ### Input Correlation
 
 ### Cross Correlation
-
-### Mean Squared Error
 
 ### Weight Update
 
@@ -82,6 +82,6 @@ python data.py
 * [Numpy](https://numpy.org/) - Third party framework for linear algebra/vector calculations
 * [Matplotlib](https://matplotlib.org/) - Python library for graphing and visualizations
 
-## Authors
+## Author
 
 * **Walter Nam** - *Initial work* - [profile](https://github.com/wnam98)
