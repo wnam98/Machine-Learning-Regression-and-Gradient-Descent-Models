@@ -28,12 +28,16 @@ The partial derivative of the objective function with respect to the weight vect
 <img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586324285280">
 <br/>
 <br/>
+which yields the following:
+<br/>
+<br/>
+After setting the expression equal to 0, we have derived the pseudo inverse weight vector
+<br/>
+<br/>
 <img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316748184" /> 
 <br/>
 <br/>
-
-Right Inverse
-The columns of our phi matrix are dependent, and thus the determinant is zero and  
+The columns of our phi matrix are dependent, and thus the determinant is zero and require a switch to the alternate right inverse.
 <br/>
 <img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182932826" />
 
