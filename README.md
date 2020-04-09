@@ -8,11 +8,13 @@ Given an initial set of training data: {[1,0], 1}, {[2,1], 0}, {[3,2], 2} and {[
 
 First order regression consists of the sum of the bias term and the dot product of the weight and training feature vectors.
 <br/>
+<br/>
 ![linear_reg](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/linear_reg.png "linear_reg")
 
 ### Second Order Polynomial Regression
 
 Second order regression consists of six basis equations along with the bias term. For multivariate least square estimation, the input phi matrix yields k + 1 basis vectors as the number of columns, and n training instances as the number of rows. From the given training data, our phi dimensions should be 6 x 4.
+<br/>
 <br/>
 ![order2](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/order2.png "order2")
 
@@ -21,7 +23,7 @@ Second order regression consists of six basis equations along with the bias term
 Regression from the point of view of a Neural Network with two hidden layers. Each perceptron takes in a weighted sum depending on the strengths of the connections between the layers. 
 <br/>
 <br/>
-<img src="https://i.stack.imgur.com/qtSik.png" />
+![objective](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/objective.png "objective")
 
 ## Pseudo Inverse Method
 In order to find the optimal weight vector, we need to derive the minimum of the error function. The above model is an example of multivariate least squares estimation where the objective function can be expressed as:
