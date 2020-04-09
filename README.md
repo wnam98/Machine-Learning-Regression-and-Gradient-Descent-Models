@@ -35,13 +35,13 @@ In order to find the optimal weight vector, we need to derive the minimum of the
 The partial derivative of the objective function with respect to the weight vector is expressed below:
 <br/>
 <br/>
-<img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586324285280">
+![partial_derivative](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/partial_derivative.png "partial_derivative")
 <br/>
 <br/>
 which yields the following:
 <br/>
 <br/>
-<img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586324858319">
+![left_inverse_expression](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/left_inverse_expression.png "left_inverse_expression")
 <br/>
 <br/>
 After setting the expression equal to 0, we have derived the pseudo inverse weight vector:
