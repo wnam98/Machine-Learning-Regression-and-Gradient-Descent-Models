@@ -23,13 +23,13 @@ Second order regression consists of six basis equations along with the bias term
 Regression from the point of view of a Neural Network with two hidden layers. Each perceptron takes in a weighted sum depending on the strengths of the connections between the layers. 
 <br/>
 <br/>
-![objective](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/objective.png "objective")
+![nn](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/nn.png "nn")
 
 ## Pseudo Inverse Method
 In order to find the optimal weight vector, we need to derive the minimum of the error function. The above model is an example of multivariate least squares estimation where the objective function can be expressed as:
 <br/>
 <br/>
-<img src = "https://www.latex4technics.com/l4ttemp/fghn4l.png?1586322502020">
+![objective](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/objective.png "objective")
 <br/>
 <br/>
 The partial derivative of the objective function with respect to the weight vector is expressed below:
