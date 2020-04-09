@@ -47,13 +47,13 @@ which yields the following:
 After setting the expression equal to 0, we have derived the pseudo inverse weight vector:
 <br/>
 <br/>
-<img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586316748184" /> 
+![left_inverse](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/left_inverse.png "left_inverse") 
 <br/>
 <br/>
 The columns of our phi matrix are dependent and is thus uninvertible. The pseudo inverse weight vector for the training data was calculated using the alternate right inverse for row independence.
 <br/>
 <br/>
-<img src="https://www.latex4technics.com/l4ttemp/r9qvo5.png?1586182932826" />
+![right_inverse](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/right_inverse.png "right_inverse") 
 <br/>
 <br/>
 
