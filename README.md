@@ -72,7 +72,7 @@ Because of the multivariate nature of the training data, the graph of the MSE eq
 The gradient descent algorithm finds the optimal minimum by traversing through the error function a set number of times (denoted by pmax iterations). At each iteration, an initialized weight vector is updated by the sum of its previous iteration value and a specified learning rate multiplied by the gradient of the MSE function. The gradient is defined as the first-order derivative of the error function with respect to the weight vector. 
 <br/>
 <br/>
-<img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586336420923" />
+![weight_update](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/weight_update.png "weight_update")
 <br/>
 <br/>
 where p = number of iterations and i = vector dimensions.
@@ -82,7 +82,7 @@ where p = number of iterations and i = vector dimensions.
 Batch gradient descent calculates the exact input and cross correlations at each iteration using the entire batch of given training data. The following is derived from differentiating the MSE objective function. Note that P and R remain fixed at each iteration.
 <br/>
 <br/>
-<img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586337561983" />
+![gradient](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/gradient.png "gradient")
 <br/>
 <br/>
 Where P denotes the cross correlation matrix and R denotes the input correlation matrix. Batch gradient descent is rather computationally complex for large datasets because P and R calculations are too costly for high dimension feature vectors. However, since BGD calculates true gradient at each iteration, convergence is generally reached in a fewer number of iterations. 
@@ -92,7 +92,7 @@ Where P denotes the cross correlation matrix and R denotes the input correlation
 Stochastic gradient descent estimates the gradient using a randomly selected subset of the data at each iteration. Thus, R and P are also estimated at each iteration until the long term average of the locally optimized weight vector approaches the true optimal solution. The weight update equation is expressed below:
 <br/>
 <br/>
-<img src="https://www.latex4technics.com/l4ttemp/8hta0w.png?1586340988003" />
+![sgd_weight_update](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/sgd_weight_update.png "sgd_weight_update")
 <br/>
 <br/>
 Where d and s respectively denote desired vs computed outputs. Stochastic gradient descent significantly reduces the computational complexity during weight training, but generally takes a larger number of iterations to reach convergence of an optimal minimum. For deep learning neural networks, stochastic is generally the default optimization method. The picture below shows the difference in convergence paths for SGD vs BGD
