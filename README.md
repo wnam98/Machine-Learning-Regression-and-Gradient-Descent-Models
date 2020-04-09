@@ -7,9 +7,7 @@ Given an initial set of training data: {[1,0], 1}, {[2,1], 0}, {[3,2], 2} and {[
 ### Simple First Order Linear Regression
 
 First order regression consists of the sum of the bias term and the dot product of the weight and training feature vectors.
-<br/>
-<br/>
-<img src="https://www.latex4technics.com/l4ttemp/fghn4l.png?1586315629394" /> 
+![linear_reg](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/linear_reg.png "linear_reg")
 
 ### Second Order Polynomial Regression
 
