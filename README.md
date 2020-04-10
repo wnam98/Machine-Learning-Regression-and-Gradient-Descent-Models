@@ -75,7 +75,7 @@ The gradient descent algorithm finds the optimal minimum by traversing through t
 ![weight_update](https://raw.github.com/wnam98/Machine-Learning-Regression-and-Gradient-Descent-Models/master/imgs/weight_update.png "weight_update")
 <br/>
 <br/>
-where p = number of iterations and i = vector dimensions.
+where p = number of iterations, i = vector dimensions, and eta = the learning rate.
 
 ### Batch Gradient Descent
 
