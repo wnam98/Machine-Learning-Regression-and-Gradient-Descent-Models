@@ -100,6 +100,7 @@ Where d and s respectively denote desired vs computed outputs. Stochastic gradie
 
 ## Running the script in your terminal
 
+This script is only compatible with Python 3. Your system should preferably have version 3.5 or above. 
 For MacOS/Linux users, cd into the directory containing the script and enter the following command:
 ```
 python3 data.py
@@ -108,6 +109,7 @@ or for Windows:
 ```
 python data.py
 ```
+Make sure your Python 3 interpreter is properly configured in your environment variables.
 
 ## Tools/Frameworks
 
