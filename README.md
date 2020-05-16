@@ -113,9 +113,9 @@ Make sure your Python 3 interpreter is properly configured in your environment v
 
 ## Tools/Frameworks
 
-* [Jupyter Notebook](https://jupyter.org/) - The web environment used to write the python code
-* [Numpy](https://numpy.org/) - Third party framework for linear algebra/vector calculations
-* [Matplotlib](https://matplotlib.org/) - Python library for graphing and visualizations
+* [Jupyter Notebook](https://jupyter.org/) - Web environment
+* [Numpy](https://numpy.org/) - Third party library for linear algebra/vector calculations
+* [Matplotlib](https://matplotlib.org/) -  Third party library for graphing and visualizations
 
 ## Author
 
